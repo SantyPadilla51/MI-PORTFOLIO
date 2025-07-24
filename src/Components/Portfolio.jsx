@@ -56,7 +56,7 @@ const Portfolio = () => {
                 </p>
                 <div className="mt-4">
                   <a
-                    href="https://admin-pacientes-ecru.vercel.app/"
+                    href="https://adm-clinica-frontend.vercel.app/"
                     target="_blank"
                     className="hover:underline mt-5"
                   >

@@ -17,7 +17,7 @@ const SobreMi = () => {
           Si te interesa saber mas sobre mi podes hablarme por LinkedIn o
           enviarme un correo: padillasantiago51@gmail.com
         </p>
-        <a href="/img/CV-PadillaSantiago.pdf" download>
+        <a href="/img/CV - Santiago Padilla.pdf" download>
           <button className="text-black mt-8 mb-8 bg-white p-4 uppercase rounded hover:bg-slate-400">
             Descargar mi CV
           </button>

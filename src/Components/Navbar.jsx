@@ -12,17 +12,16 @@ const Navbar = () => {
         setResolucion(window.innerWidth);
     };
 
-    const hanldeBtnFlotante = () => {
+    const handleBtnFlotante = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     const handleEnlace = (e, targetId) => {
         e.preventDefault();
         const targetElement = document.getElementById(targetId);
-        console.log(targetElement);
 
         if (targetElement) {
-            const offsetPosition = targetElement.offsetTop - 100; // Ajusta el valor según sea necesario
+            const offsetPosition = targetElement.offsetTop - 100; 
 
             window.scrollTo({
                 top: offsetPosition,
@@ -52,7 +51,7 @@ const Navbar = () => {
                             ></i>
                         </p>
                     </nav>
-                    <button className="btnFlotante bg-black text-white" onClick={hanldeBtnFlotante}>
+                    <button className="btnFlotante bg-black text-white" onClick={handleBtnFlotante}>
                         <i className="fa fa-arrow-up"></i>
                     </button>
                     {menu && (
@@ -128,7 +127,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <button className="btnFlotante bg-black text-white" onClick={hanldeBtnFlotante}>
+                    <button className="btnFlotante bg-black text-white" onClick={handleBtnFlotante}>
                         <i className="fa fa-arrow-up"></i>
                     </button>
                 </nav>

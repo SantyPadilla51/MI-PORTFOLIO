@@ -24,13 +24,20 @@ const Portfolio = () => {
                   Una pagina web enfocada en el diseño para una tienda de
                   hadware online
                 </p>
-                <div className="mt-4">
+                <div className="flex flex-col mt-4">
                   <a
                     href="https://tienda-hardware.vercel.app/"
                     target="_blank"
                     className="hover:underline mt-5"
                   >
                     Visitar sitio web
+                  </a>
+                  <a
+                    href="https://github.com/SantyPadilla51/TIENDA-HARDWARE"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Ver codigo GitHub
                   </a>
                 </div>
               </div>
@@ -54,13 +61,20 @@ const Portfolio = () => {
                   Un programa para poder llevar el control de los estudios
                   clinicos de tus pacientes
                 </p>
-                <div className="mt-4">
+                <div className="flex flex-col mt-4">
                   <a
                     href="https://adm-clinica-frontend.vercel.app/"
                     target="_blank"
                     className="hover:underline mt-5"
                   >
                     Visitar sitio web
+                  </a>
+                  <a
+                    href="https://github.com/SantyPadilla51/ADM-CLINICA-FRONTEND"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Ver codigo en GitHub
                   </a>
                 </div>
               </div>
@@ -84,13 +98,20 @@ const Portfolio = () => {
                   Un software desarrollado para buscar cualquier gif de la web
                   de forma rapida y sencilla
                 </p>
-                <div className="mt-4">
+                <div className="flex flex-col mt-4">
                   <a
                     href="https://buscador-de-gifs-7rjrsri5s-santypadilla51s-projects.vercel.app/"
                     target="_blank"
                     className="hover:underline mt-5"
                   >
                     Visitar sitio web
+                  </a>
+                  <a
+                    href="https://github.com/SantyPadilla51/BUSCADOR_DE_GIFS"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Ver codigo en GitHub
                   </a>
                 </div>
               </div>

@@ -47,6 +47,45 @@ const Portfolio = () => {
           <section className="mt-8 lg:mt-0 ">
             <div className="bg-black p-4 text-white h-full">
               <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
+                Inmobiliaria Argenta
+              </h2>
+              <img
+                className="p-2 h-[250px] object-contain"
+                src="/img/inmobiliaria.png"
+                width="750"
+                height="200"
+                alt="INMOBILIARIA"
+              />
+              <div className="mt-2 p-2">
+                <p className="bg-slate-800 p-2">
+                  Sistema de gestión inmobiliaria con arquitectura orientada a
+                  componentes, implementando operaciones CRUD completas,
+                  filtrado dinámico en tiempo real y persistencia en base de
+                  datos NoSQL.
+                </p>
+                <div className="flex flex-col mt-4">
+                  <a
+                    href="https://inmobiliaria-argenta-frontend.vercel.app/"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Visitar sitio web
+                  </a>
+                  <a
+                    href="https://github.com/SantyPadilla51/Inmobiliaria-Argenta-Frontend"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Ver codigo en GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mt-8 lg:mt-0 ">
+            <div className="bg-black p-4 text-white h-full">
+              <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
                 Prueba Tecnica EGO
               </h2>
               <img

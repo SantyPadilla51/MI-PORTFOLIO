@@ -14,13 +14,17 @@ export const Educacion = () => {
             </button>
           </li>
           <li className="mb-16">
-            <h2> FullStack Typescript, NestJS, NextJs - Udemy</h2>
-            <button className="text-black bg-white mt-2 p-3 hover:bg-gray-400">
-              En Curso
-            </button>
+            <h2> Typescript- Udemy</h2>
+            <img
+              src="/img/certificado-typescript.jpg"
+              alt=""
+              width="400"
+              height="200"
+              className="mt-4"
+            />
           </li>
           <li className="mb-16">
-            <h2>Curso de JavasCript Moderno - Udemy</h2>
+            <h2>JavasCript Moderno - Udemy</h2>
             <img
               src="/img/certificado-udemy-js.jpg"
               alt=""

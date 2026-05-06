@@ -3,22 +3,19 @@ const SobreMi = () => {
     <>
       <div id="SobreMi" className="m-3">
         <h1 className="text-white uppercase font-bold text-5xl mt-96 ">
-          Sobre Mi
+          About Me
         </h1>
         <p className="text-white mt-10 w-full lg:w-1/2">
-          ¡Hola! Soy Santiago, tengo 25 años y soy un apasionado desarrollador
-          de software en el mundo web y de aplicaciones. Actualmente cursando la
-          Tecnicatura Superior en Desarrollo de Software. Disfruto trabajando en
-          equipo y creo en la importancia de una comunicación clara y eficaz.
-          Creo que el intercambio de ideas y la colaboración son fundamentales
-          para el éxito de cualquier proyecto.
+          ¡Hola! Soy Santiago, Desarrollador de Software enfocado en la creación
+          de aplicaciones robustas y soluciones web escalables. Me especializo
+          en transformar ideas en productos funcionales mediante el trabajo
+          colaborativo y una comunicación técnica clara. Mi enfoque está
+          orientado a la excelencia en el código y al éxito compartido de los
+          proyectos en los que participo.
         </p>
-        <p className="text-white mt-6">
-          Si te interesa saber mas sobre mi podes hablarme por LinkedIn o
-          enviarme un correo: padillasantiago51@gmail.com
-        </p>
-        <a href="/img/CV - Santiago Padilla.pdf" download>
-          <button className="text-black mt-8 mb-8 bg-white p-4 uppercase rounded hover:bg-slate-400">
+
+        <a href="/img/CV.pdf" download>
+          <button className="text-black mt-8 mb-8 bg-white p-4 uppercase hover:bg-black hover:text-white">
             Descargar mi CV
           </button>
         </a>

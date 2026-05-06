@@ -76,7 +76,7 @@ const Navbar = () => {
                     className="uppercase font-light"
                     onClick={(e) => handleEnlace(e, "SobreMi")}
                   >
-                    Sobre mi
+                    About me
                   </a>
                 </li>
                 <li>
@@ -94,7 +94,7 @@ const Navbar = () => {
                     className="uppercase font-light"
                     onClick={(e) => handleEnlace(e, "Educacion")}
                   >
-                    Educacion
+                    Education
                   </a>
                 </li>
                 <li>
@@ -112,7 +112,7 @@ const Navbar = () => {
                     className="uppercase font-light"
                     onClick={(e) => handleEnlace(e, "Contacto")}
                   >
-                    Contacto
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -138,7 +138,7 @@ const Navbar = () => {
                   className="uppercase font-light"
                   onClick={(e) => handleEnlace(e, "SobreMi")}
                 >
-                  Sobre mi
+                  About me
                 </a>
               </li>
               <li>
@@ -165,7 +165,7 @@ const Navbar = () => {
                   className="uppercase font-light"
                   onClick={(e) => handleEnlace(e, "Educacion")}
                 >
-                  Educacion
+                  Education
                 </a>
               </li>
               <li>
@@ -174,7 +174,7 @@ const Navbar = () => {
                   className="uppercase font-light"
                   onClick={(e) => handleEnlace(e, "Contacto")}
                 >
-                  Contacto
+                  Contact
                 </a>
               </li>
             </ul>

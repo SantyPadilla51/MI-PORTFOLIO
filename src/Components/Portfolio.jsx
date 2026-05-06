@@ -7,43 +7,6 @@ const Portfolio = () => {
         </h1>
 
         <div className="lg:grid lg:grid-cols-3 gap-4">
-          <section>
-            <div className="bg-black p-4 text-white h-full">
-              <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
-                Tienda Hardware
-              </h2>
-              <img
-                className="p-2 h-[250px] object-contain"
-                src="/img/tienda-hardware.png"
-                width="750"
-                height="300"
-                alt="Tienda-Hardware"
-              />
-              <div className="mt-2 p-2">
-                <p className="bg-slate-800 p-2">
-                  Una pagina web enfocada en el diseño para una tienda de
-                  hadware online
-                </p>
-                <div className="flex flex-col mt-4">
-                  <a
-                    href="https://tienda-hardware.vercel.app/"
-                    target="_blank"
-                    className="hover:underline mt-5"
-                  >
-                    Visitar sitio web
-                  </a>
-                  <a
-                    href="https://github.com/SantyPadilla51/TIENDA-HARDWARE"
-                    target="_blank"
-                    className="hover:underline mt-5"
-                  >
-                    Ver codigo GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-
           <section className="mt-8 lg:mt-0 ">
             <div className="bg-black p-4 text-white h-full">
               <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
@@ -84,6 +47,81 @@ const Portfolio = () => {
           <section className="mt-8 lg:mt-0 ">
             <div className="bg-black p-4 text-white h-full">
               <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
+                Prueba Tecnica EGO
+              </h2>
+              <img
+                className="p-2 h-[250px] object-contain"
+                src="/img/Prueba-Tecnica-Ego.png"
+                width="750"
+                height="200"
+                alt="Prueba-Tecnica-EGO"
+              />
+              <div className="mt-2 p-2">
+                <p className="bg-slate-800 p-2">
+                  Web que simula una concesionaria de autos. Desarrollada como
+                  prueba técnica para un proceso de selección. Incluye filtrado
+                  de vehículos y UI responsive.
+                </p>
+                <div className="flex flex-col mt-4">
+                  <a
+                    href="https://prueba-tecnica-ego-uro2.vercel.app/"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Visitar sitio web
+                  </a>
+                  <a
+                    href="https://github.com/SantyPadilla51/Prueba-Tecnica-EGO"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Ver codigo en GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div className="bg-black p-4 text-white h-full">
+              <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
+                Tienda Hardware
+              </h2>
+              <img
+                className="p-2 h-[250px] object-contain"
+                src="/img/tienda-hardware.png"
+                width="750"
+                height="300"
+                alt="Tienda-Hardware"
+              />
+              <div className="mt-2 p-2">
+                <p className="bg-slate-800 p-2">
+                  Una pagina web enfocada en el diseño para una tienda de
+                  hadware online
+                </p>
+                <div className="flex flex-col mt-4">
+                  <a
+                    href="https://tienda-hardware.vercel.app/"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Visitar sitio web
+                  </a>
+                  <a
+                    href="https://github.com/SantyPadilla51/TIENDA-HARDWARE"
+                    target="_blank"
+                    className="hover:underline mt-5"
+                  >
+                    Ver codigo GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mt-8 lg:mt-0 ">
+            <div className="bg-black p-4 text-white h-full">
+              <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
                 Buscador de Gifs
               </h2>
               <img
@@ -108,44 +146,6 @@ const Portfolio = () => {
                   </a>
                   <a
                     href="https://github.com/SantyPadilla51/BUSCADOR_DE_GIFS"
-                    target="_blank"
-                    className="hover:underline mt-5"
-                  >
-                    Ver codigo en GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="mt-8 lg:mt-0 ">
-            <div className="bg-black p-4 text-white h-full">
-              <h2 className="text-lg text-center bg-white text-black bg-opacity-90 mb-4">
-                Prueba Tecnica EGO
-              </h2>
-              <img
-                className="p-2 h-[250px] object-contain"
-                src="/img/Prueba-Tecnica-Ego.png"
-                width="750"
-                height="200"
-                alt="Prueba-Tecnica-EGO"
-              />
-              <div className="mt-2 p-2">
-                <p className="bg-slate-800 p-2">
-                Web que simula una concesionaria de autos.
-                Desarrollada como prueba técnica para un proceso de selección.
-                Incluye filtrado de vehículos y UI responsive.
-                </p>
-                <div className="flex flex-col mt-4">
-                  <a
-                    href="https://prueba-tecnica-ego-uro2.vercel.app/"
-                    target="_blank"
-                    className="hover:underline mt-5"
-                  >
-                    Visitar sitio web
-                  </a>
-                  <a
-                    href="https://github.com/SantyPadilla51/Prueba-Tecnica-EGO"
                     target="_blank"
                     className="hover:underline mt-5"
                   >

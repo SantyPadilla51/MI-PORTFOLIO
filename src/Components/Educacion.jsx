@@ -1,12 +1,12 @@
 export const Educacion = () => {
   return (
     <>
-      <div id="Educacion" className="m-3">
-        <h1 className="text-white mt-52 uppercase text-5xl font-bold">
+      <div id="Educacion" className="mx-5 lg:mx-48 mt-64">
+        <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl border-b border-white pb-4 mb-10">
           Educacion
-        </h1>
+        </h2>
 
-        <ul className="text-white mt-14">
+        <ul className="lg:grid lg:grid-cols-3 text-white mt-14 gap-8">
           <li className="mb-16">
             <h2> Tecnicatura Superior en Desarrollo de Software - IFTS 18</h2>
             <button className="text-black bg-white mt-2 p-3 hover:bg-slate-400">

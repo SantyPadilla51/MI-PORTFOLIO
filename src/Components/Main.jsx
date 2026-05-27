@@ -1,42 +1,69 @@
 const Main = () => {
   return (
     <>
-      <section className="font-bold m-3 lg:mt-72 lg:ms-8" id="Main">
-        <div className="console-container mt-52">
-          <span id="text" className=" flex-wrap text-5xl text-wrap"></span>
+      <section
+        className=" lg:mx-48 my-16 lg:my-48 lg:ml-12 max-w-4xl"
+        id="Main"
+      >
+        {/* Contenedor del texto animado / Consola */}
+        <div className="console-container mt-24 lg:mt-36 lg:mx-48">
+          <span
+            id="text"
+            className="text-4xl md:text-6xl font-black tracking-tight text-white block min-h-[60px]"
+          ></span>
         </div>
-        <div className="mt-20 m-3">
-          <h3 className="text-white text-2xl uppercase mt-8">
+
+        {/* Textos de Bienvenida */}
+        <div className="mt-8 lg:mx-48 mx-5">
+          <h3 className="text-white font-medium text-lg md:text-xl uppercase tracking-wider">
             Bienvenido a mi Portfolio como desarrollador web
           </h3>
-          <h3 className="text-white mt-6">
-            Si deseas contactarme, puedes hacerlo a travez de
-            <span className="text-green-600 ms-3 ">
-              <a href="" className="cursor-pointer">
+
+          <h3 className="text-white mt-4 text-base md:text-lg font-normal">
+            Si deseas contactarme, puedes hacerlo a través de{" "}
+            <span className="text-sky-400 font-semibold hover:text-sky-300 transition-colors block sm:inline mt-1 sm:mt-0">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=padillasantiago51@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer underline decoration-sky-400/30 hover:decoration-sky-300 underline-offset-4"
+              >
                 padillasantiago51@gmail.com
               </a>
             </span>
           </h3>
         </div>
-        <a href="#Porfolio">
-          <button className="font-light text-black mt-8 mb-8 bg-white p-4 uppercase hover:bg-black hover:text-white">
-            Ver Proyectos
-          </button>
-        </a>
 
-        <div className="m-3">
-          <ul className="text-white iconosRedes mt-6 ">
+        {/* Botón de Llamado a la Acción (CTA) */}
+        <div className="mt-10 lg:mx-48 mx-5 flex flex-wrap items-center gap-6">
+          <a href="#Porfolio" className="inline-block">
+            <button className="text-zinc-950 bg-zinc-100 font-bold tracking-wide text-sm px-8 py-4 rounded-xl hover:bg-zinc-300 active:scale-95 transition-all duration-200 uppercase shadow-lg shadow-black/20">
+              Ver Proyectos
+            </button>
+          </a>
+
+          {/* Redes Sociales Flotantes */}
+          <ul className="flex items-center gap-4 text-sky-600">
             <li>
               <a
                 href="https://www.linkedin.com/in/santiago-padilla-800173235/"
                 target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-11 h-11 bg-zinc-800/40 border border-zinc-800/80 rounded-xl hover:bg-zinc-800 hover:text-sky-400 hover:border-zinc-700 transition-all duration-200 active:scale-90"
+                title="LinkedIn"
               >
-                <i class="fab fa-linkedin-in icon"></i>
+                <i className="fab fa-linkedin-in text-lg"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/SantyPadilla51" target="_blank">
-                <i class="fab fa-github icon"></i>
+              <a
+                href="https://github.com/SantyPadilla51"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-11 h-11 bg-zinc-800/40 border border-zinc-800/80 rounded-xl hover:bg-zinc-800 hover:text-sky-400 hover:border-zinc-700 transition-all duration-200 active:scale-90"
+                title="GitHub"
+              >
+                <i className="fab fa-github text-lg"></i>
               </a>
             </li>
           </ul>

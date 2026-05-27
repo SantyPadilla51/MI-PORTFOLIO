@@ -1,14 +1,14 @@
 const Contacto = () => {
   return (
     <>
-      <div id="Contacto" className="mx-5 lg:mx-48 my-24 max-w-4xl mt-64">
+      <div id="Contacto" className="mx-5 lg:mx-48 my-24  mt-64">
         {/* Título de la sección */}
         <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl border-b border-white pb-4">
           Contactame
         </h2>
 
         {/* Lista de canales de contacto */}
-        <ul className="mt-8 flex flex-col gap-4 w-full lg:w-4/5">
+        <ul className="mt-8 flex flex-col gap-4 w-full mx-auto lg:w-4/5">
           {/* Email */}
           <li className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-zinc-800/40 border border-zinc-800/80 px-5 py-4 rounded-xl hover:bg-zinc-800 hover:border-zinc-700 transition-all duration-200 group">
             <div className="flex items-center gap-3 text-zinc-300">

@@ -35,11 +35,11 @@ const Navbar = () => {
 
   const enlaces = [
     { id: "Main", label: "Santiago Padilla" },
-    { id: "SobreMi", label: "About me" },
+    { id: "SobreMi", label: "Sobre Mi" },
     { id: "Porfolio", label: "Portfolio" },
     { id: "Skills", label: "Skills" },
-    { id: "Educacion", label: "Education" },
-    { id: "Contacto", label: "Contact" },
+    { id: "Educacion", label: "Educacion" },
+    { id: "Contacto", label: "Contacto" },
   ];
 
   return (

@@ -4,7 +4,7 @@ const SobreMi = () => {
       <div id="SobreMi" className="lg:mx-48 my-16 mx-5 mt-64">
         {/* Título de la sección */}
         <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl border-b border-white pb-4">
-          About Me
+          Sobre Mi
         </h2>
 
         {/* Descripción Profesional */}

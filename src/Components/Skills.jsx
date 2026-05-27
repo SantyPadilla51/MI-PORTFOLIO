@@ -3,9 +3,14 @@ const Skills = () => {
     <>
       <div id="Skills" className="mx-5 lg:mx-48 mt-64">
         {/* Título de la sección */}
-        <h3 className="text-xl font-bold tracking-wide text-zinc-100 border-b border-white lg:w-1/2 pb-3 mb-6 uppercase">
-          Lenguajes de Programación | Frameworks | Librerías
-        </h3>
+        <div className="border-b border-white mb-5">
+          <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl  pb-4 mb-2">
+            Stack Tecnologico
+          </h2>
+          <h3 className="text-xl font-bold tracking-wide text-zinc-100  pb-3  uppercase">
+            Lenguajes de Programación | Frameworks | Librerías
+          </h3>
+        </div>
 
         {/* Lista de Tecnologías */}
         <ul className="flex flex-wrap gap-3 text-zinc-200">

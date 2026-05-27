@@ -82,7 +82,7 @@ const Portfolio = () => {
             </section>
           </div>
 
-          <div className="flex flex-col justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
+          <div className="flex flex-col mt-8 justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
             {/* Título principal */}
             <h2 className="text-xl font-bold tracking-wide text-zinc-100 border-b border-zinc-800 pb-3 mb-4">
               Doc Panel
@@ -156,7 +156,7 @@ const Portfolio = () => {
             </section>
           </div>
 
-          <div className="flex flex-col justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
+          <div className="flex flex-col mt-8 justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
             {/* Título principal */}
             <h2 className="text-xl font-bold tracking-wide text-zinc-100 border-b border-zinc-800 pb-3 mb-4">
               Prueba Tecnica | EGO
@@ -230,7 +230,7 @@ const Portfolio = () => {
             </section>
           </div>
 
-          <div className="flex flex-col justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
+          <div className="flex flex-col mt-8 justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
             {/* Título principal */}
             <h2 className="text-xl font-bold tracking-wide text-zinc-100 border-b border-zinc-800 pb-3 mb-4">
               Tienda Hardware
@@ -304,7 +304,7 @@ const Portfolio = () => {
             </section>
           </div>
 
-          <div className="flex flex-col justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
+          <div className="flex flex-col mt-8 justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
             {/* Título principal */}
             <h2 className="text-xl font-bold tracking-wide text-zinc-100 border-b border-zinc-800 pb-3 mb-4">
               Buscador de Gifs

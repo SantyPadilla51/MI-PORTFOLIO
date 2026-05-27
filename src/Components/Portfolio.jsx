@@ -7,7 +7,7 @@ const Portfolio = () => {
         </h2>
 
         <div className="lg:grid lg:grid-cols-3 gap-4 ">
-          <div className="flex flex-col justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
+          <div className="flex flex-col mt-8 justify-between max-w-sm h-full bg-zinc-900 border border-zinc-800 rounded-xl p-5 text-white shadow-lg shadow-black/40 backdrop-blur-sm">
             {/* Título principal */}
             <h2 className="text-xl font-bold tracking-wide text-zinc-100 border-b border-zinc-800 pb-3 mb-4">
               Inmobiliaria Argenta

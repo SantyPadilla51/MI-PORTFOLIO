@@ -92,7 +92,7 @@ const Portfolio = () => {
             <div className="w-full h-44 overflow-hidden rounded-lg bg-zinc-800 mb-4">
               <img
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                src="/img/ADM-CLINICA.png"
+                src="/img/DocPanel.png"
                 alt="Doc-Panel"
               />
             </div>

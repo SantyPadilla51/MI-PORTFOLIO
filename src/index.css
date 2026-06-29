@@ -3,6 +3,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.hidden {
+  opacity: 0;
+}
+
+.navbar {
+  z-index: 3;
+}
+
 .btnFlotante {
   position: fixed;
   right: 20px;
@@ -76,6 +84,12 @@ html {
   }
 }
 
+.menuAnimacion {
+  -webkit-animation: menuAnimacion 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: menuAnimacion 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 @media (max-width: 800px) {
   .menuDesplegable {
     right: 0;
@@ -115,12 +129,6 @@ html {
   }
 }
 
-.menuAnimacion {
-  -webkit-animation: menuAnimacion 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: menuAnimacion 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
 @-webkit-keyframes menuAnimacion {
   0% {
     -webkit-transform: translateY(-1000px);
@@ -147,31 +155,6 @@ html {
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-.hidden {
-  opacity: 0;
-}
-
-.console-container {
-  font-size: 4em;
-  height: 150px;
-  width: 800px;
-  color: white;
-}
-
-@media (max-width: 640px) {
-  .console-container {
-    font-size: 2em;
-    height: 50px;
-    width: 150px;
-    margin: 1rem;
-    margin-top: 10rem;
-  }
-}
-
-.navbar {
-  z-index: 3;
 }
 
 /* -----------------ICONOS REDES Y ANIMACION --------------*/

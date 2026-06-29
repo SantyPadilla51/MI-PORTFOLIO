@@ -1,14 +1,15 @@
 const SobreMi = () => {
   return (
     <>
-      <div id="SobreMi" className="lg:mx-48 my-16 mx-5 mt-64">
+      <div id="SobreMi" className="w-full max-w-6xl mx-auto my-16 mt-64 px-5">
         {/* Título de la sección */}
         <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl border-b border-white pb-4">
           Sobre Mi
         </h2>
 
         {/* Descripción Profesional */}
-        <p className="text-white mt-6 text-lg leading-relaxed w-full lg:w-4/5 font-normal">
+        {/* Nota: si quieres que el texto ocupe todo el ancho centrado, quité el lg:w-4/5. Si prefieres que el texto sea más corto que la línea del título, puedes dejarlo */}
+        <p className="text-white mt-6 text-lg leading-relaxed w-full font-normal">
           ¡Hola! Soy Santiago, Desarrollador de Software enfocado en la creación
           de aplicaciones robustas y soluciones web escalables. Me especializo
           en transformar ideas en productos funcionales mediante el trabajo

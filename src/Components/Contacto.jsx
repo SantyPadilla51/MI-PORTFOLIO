@@ -1,7 +1,7 @@
 const Contacto = () => {
   return (
     <>
-      <div id="Contacto" className="mx-5 lg:mx-48 my-24  mt-64">
+      <div id="Contacto" className="w-full max-w-6xl mx-auto my-16 mt-64 px-5">
         {/* Título de la sección */}
         <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl border-b border-white pb-4">
           Contactame

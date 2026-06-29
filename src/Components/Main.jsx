@@ -1,12 +1,9 @@
 const Main = () => {
   return (
     <>
-      <section
-        className=" lg:mx-48 my-16 lg:my-48 lg:ml-12 max-w-4xl"
-        id="Main"
-      >
+      <section className=" w-full max-w-6xl mx-auto my-16 mt-64 px-5" id="Main">
         {/* Contenedor del texto animado / Consola */}
-        <div className="console-container mt-24 lg:mt-36 lg:mx-48">
+        <div className="">
           <span
             id="text"
             className="text-4xl md:text-6xl font-black tracking-tight text-white block min-h-[60px]"
@@ -14,7 +11,7 @@ const Main = () => {
         </div>
 
         {/* Textos de Bienvenida */}
-        <div className="mt-8 lg:mx-48 mx-5">
+        <div className="mt-8 ">
           <h3 className="text-white font-medium text-lg md:text-xl uppercase tracking-wider">
             Bienvenido a mi Portfolio como desarrollador web
           </h3>
@@ -35,7 +32,7 @@ const Main = () => {
         </div>
 
         {/* Botón de Llamado a la Acción (CTA) */}
-        <div className="mt-10 lg:mx-48 mx-5 flex flex-wrap items-center gap-6">
+        <div className="mt-10  flex flex-wrap items-center gap-6">
           <a href="#Porfolio" className="inline-block">
             <button className="text-zinc-950 bg-zinc-100 font-bold tracking-wide text-sm px-8 py-4 rounded-xl hover:bg-zinc-300 active:scale-95 transition-all duration-200 uppercase shadow-lg shadow-black/20">
               Ver Proyectos

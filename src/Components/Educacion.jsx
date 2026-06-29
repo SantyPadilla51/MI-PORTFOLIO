@@ -1,7 +1,7 @@
 export const Educacion = () => {
   return (
     <>
-      <div id="Educacion" className="mx-5 lg:mx-48 mt-64">
+      <div id="Educacion" className="w-full max-w-6xl mx-auto my-16 mt-64 px-5">
         <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl border-b border-white pb-4 mb-10">
           Educacion
         </h2>

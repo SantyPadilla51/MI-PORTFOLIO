@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 const Main = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section className=" w-full max-w-6xl mx-auto my-16 mt-64 px-5" id="Main">
@@ -13,11 +16,11 @@ const Main = () => {
         {/* Textos de Bienvenida */}
         <div className="mt-8 ">
           <h3 className="text-white font-medium text-lg md:text-xl uppercase tracking-wider">
-            Bienvenido a mi Portfolio como desarrollador web
+            {t("main.title")}
           </h3>
 
           <h3 className="text-white mt-4 text-base md:text-lg font-normal">
-            Si deseas contactarme, puedes hacerlo a través de{" "}
+            {t("main.description")}{" "}
             <span className="text-sky-400 font-semibold hover:text-sky-300 transition-colors block sm:inline mt-1 sm:mt-0">
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=padillasantiago51@gmail.com"
@@ -25,7 +28,7 @@ const Main = () => {
                 rel="noopener noreferrer"
                 className="cursor-pointer underline decoration-sky-400/30 hover:decoration-sky-300 underline-offset-4"
               >
-                padillasantiago51@gmail.com
+                {t("main.email")}
               </a>
             </span>
           </h3>
@@ -35,7 +38,7 @@ const Main = () => {
         <div className="mt-10  flex flex-wrap items-center gap-6">
           <a href="#Porfolio" className="inline-block">
             <button className="text-zinc-950 bg-zinc-100 font-bold tracking-wide text-sm px-8 py-4 rounded-xl hover:bg-zinc-300 active:scale-95 transition-all duration-200 uppercase shadow-lg shadow-black/20">
-              Ver Proyectos
+              {t("main.btn")}
             </button>
           </a>
 

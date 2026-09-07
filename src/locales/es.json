@@ -1,0 +1,67 @@
+{
+  "main": {
+    "title": "Bienvenido a mi Portfolio como desarrollador web",
+    "email": "padillasantiago51@gmail.com",
+    "description": "Si deseas contactarme, puedes hacerlo a través de",
+    "btn": "Ver Proyectos"
+  },
+  "sobre-mi": {
+    "title": "Sobre Mí",
+    "descripcion": "¡Hola! Soy Santiago, Desarrollador de Software enfocado en la creación de aplicaciones robustas y soluciones web escalables. Me especializo en transformar ideas en productos funcionales mediante el trabajo colaborativo y una comunicación técnica clara. Mi enfoque está orientado a la excelencia en el código y al éxito compartido de los proyectos en los que participo.",
+    "btn": "Descargar CV"
+  },
+  "skills": {
+    "title": "Habilidades Tecnológicas",
+    "web-btn": "Visitar Sitio Web",
+    "github-btn": "Ver en GitHub",
+    "projects": {
+      "project1": {
+        "title": "Administrador de Inmobiliaria Argenta",
+        "description": "Plataforma Fullstack de gestión inmobiliaria con caché multinivel (Redis y TanStack Query), filtrado dinámico en tiempo real, integración de pagos con Stripe y automatizaciones en Supabase."
+      },
+      "project2": {
+        "title": "Inmobiliaria Argenta",
+        "description": "Sistema de gestión inmobiliaria con arquitectura orientada a componentes, implementando operaciones CRUD completas, filtrado dinámico en tiempo real y persistencia en base de datos SQL."
+      },
+      "project3": {
+        "title": "DOC PANEL",
+        "description": "Un programa para poder llevar el control de los estudios clinicos de tus pacientes, agendar turnos, generar reportes y guardar imagenes de estudios. Implementa el uso de Postgres para su DB, Bucket para el almacenamiento de imagenes y una version DEMO."
+      },
+      "project4": {
+        "title": "Prueba Tecnica | EGO",
+        "description": "Prueba Tecnica de Frontend para empresa donde habia que desarrollar una landing, respetenado lo maximo posible el diseño que me habian otorgado"
+      },
+      "project5": {
+        "title": "Tienda Hardware",
+        "description": "Una pagina web sencilla, enfocada en el diseño para una tienda de hadware online. Cuenta con un apartado de carrito totalmente funcional y carrusel de ofertas."
+      },
+      "project6": {
+        "title": "Buscador de Gifs",
+        "description": "Un software desarrollado para buscar cualquier gif de la web de forma rapida y sencilla"
+      }
+    }
+  },
+  "stack": {
+    "title": "Stack Tecnológico",
+    "description": "Lenguajes de Programación | Frameworks | Librerías"
+  },
+  "educacion": {
+    "title": "Educación",
+    "education-1": "Tecnicatura Superior en Desarrollo de Software - IFTS 18",
+    "education-1-status": "En Curso",
+    "education-2": "Typescript- Udemy",
+    "education-3": "Javascript Moderno - Udemy",
+    "education-4": "Desarrollo Web - CoderHouse"
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "navbar": {
+    "home": "Santiago Padilla",
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "education": "Educación",
+    "contact": "Contacto"
+  }
+}

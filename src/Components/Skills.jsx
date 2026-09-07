@@ -1,14 +1,18 @@
+import { useTranslation } from "react-i18next";
+
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div id="Skills" className="w-full max-w-6xl mx-auto my-16 mt-64 px-5">
         {/* Título de la sección */}
         <div className="border-b border-white mb-5">
           <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl  pb-4 mb-2">
-            Stack Tecnologico
+            {t("stack.title")}
           </h2>
           <h3 className="text-xl font-bold tracking-wide text-zinc-100  pb-3  uppercase">
-            Lenguajes de Programación | Frameworks | Librerías
+            {t("stack.description")}
           </h3>
         </div>
 

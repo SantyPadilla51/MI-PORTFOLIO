@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const Portfolio = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div id="Porfolio" className="w-full max-w-6xl mx-auto my-16 mt-64 px-5">
@@ -21,11 +25,10 @@ const Portfolio = () => {
             <div className="flex flex-col justify-between flex-grow">
               <div>
                 <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">
-                  Administrador de Inmobiliaria Argenta
+                  {t("skills.projects.project1.title")}
                 </h2>
                 <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-                  Plataforma Fullstack de gestión inmobiliaria con caché multinivel (Redis y TanStack Query), filtrado
-                  dinámico en tiempo real, integración de pagos con Stripe y automatizaciones en Supabase.
+                  {t("skills.projects.project1.description")}
                 </p>
 
                 {/* Apartado de Stack (Tecnologías) */}
@@ -68,7 +71,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-white text-black text-sm font-semibold py-2 px-3 rounded-lg hover:bg-zinc-200 active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>Visitar sitio</span>
+                  <span>{t("skills.web-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -91,7 +94,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-zinc-800 text-zinc-300 text-sm font-medium py-2 px-3 rounded-lg border border-zinc-700 hover:bg-zinc-700 hover:text-white active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>GitHub</span>
+                  <span>{t("skills.github-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -125,10 +128,11 @@ const Portfolio = () => {
             {/* Mitad Derecha: Contenido, Stack y Botones */}
             <div className="flex flex-col justify-between flex-grow">
               <div>
-                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">Inmobiliaria Argenta</h2>
+                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">
+                  {t("skills.projects.project2.title")}
+                </h2>
                 <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-                  Sistema de gestión inmobiliaria con arquitectura orientada a componentes, implementando operaciones
-                  CRUD completas, filtrado dinámico en tiempo real y persistencia en base de datos SQL.
+                  {t("skills.projects.project2.description")}
                 </p>
 
                 {/* Apartado de Stack (Tecnologías) */}
@@ -162,7 +166,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-white text-black text-sm font-semibold py-2 px-3 rounded-lg hover:bg-zinc-200 active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>Visitar sitio</span>
+                  <span>{t("skills.web-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -185,7 +189,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-zinc-800 text-zinc-300 text-sm font-medium py-2 px-3 rounded-lg border border-zinc-700 hover:bg-zinc-700 hover:text-white active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>GitHub</span>
+                  <span>{t("skills.github-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -219,11 +223,11 @@ const Portfolio = () => {
             {/* Mitad Derecha: Contenido y Botones */}
             <div className="flex flex-col justify-between flex-grow">
               <div>
-                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">DOC PANEL</h2>
+                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">
+                  {t("skills.projects.project3.title")}
+                </h2>
                 <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-                  Un programa para poder llevar el control de los estudios clinicos de tus pacientes, agendar turnos,
-                  generar reportes y guardar imagenes de estudios. Implementa el uso de Postgres para su DB, Bucket para
-                  el almacenamiento de imagenes y una version DEMO.
+                  {t("skills.projects.project3.description")}
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -256,7 +260,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-white text-black text-sm font-semibold py-2 px-3 rounded-lg hover:bg-zinc-200 active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>Visitar sitio</span>
+                  <span>{t("skills.web-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -279,7 +283,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-zinc-800 text-zinc-300 text-sm font-medium py-2 px-3 rounded-lg border border-zinc-700 hover:bg-zinc-700 hover:text-white active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>GitHub</span>
+                  <span>{t("skills.github-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -313,10 +317,11 @@ const Portfolio = () => {
             {/* Mitad Derecha: Contenido y Botones */}
             <div className="flex flex-col justify-between flex-grow">
               <div>
-                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">Prueba Tecnica | EGO</h2>
+                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">
+                  {t("skills.projects.project4.title")}
+                </h2>
                 <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-                  Prueba Tecnica de Frontend para empresa donde habia que desarrollar una landing, respetenado lo maximo
-                  posible el diseño que me habian otorgado
+                  {t("skills.projects.project4.description")}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   <span className="text-xs font-semibold tracking-wide text-zinc-300 bg-blue-600/30 border border-blue-700 px-2.5 py-1 rounded-md shadow-sm">
@@ -340,7 +345,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-white text-black text-sm font-semibold py-2 px-3 rounded-lg hover:bg-zinc-200 active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>Visitar sitio</span>
+                  <span>{t("skills.web-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -363,7 +368,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-zinc-800 text-zinc-300 text-sm font-medium py-2 px-3 rounded-lg border border-zinc-700 hover:bg-zinc-700 hover:text-white active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>GitHub</span>
+                  <span>{t("skills.github-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -397,10 +402,11 @@ const Portfolio = () => {
             {/* Mitad Derecha: Contenido y Botones */}
             <div className="flex flex-col justify-between flex-grow">
               <div>
-                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">Tienda Hardware</h2>
+                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">
+                  {t("skills.projects.project5.title")}
+                </h2>
                 <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-                  Una pagina web sencilla, enfocada en el diseño para una tienda de hadware online. Cuenta con un
-                  apartado de carrito totalmente funcional y carrusel de ofertas.
+                  {t("skills.projects.project5.description")}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   <span className="text-xs font-semibold tracking-wide text-zinc-300 bg-orange-600/30 border border-orange-700 px-2.5 py-1 rounded-md shadow-sm">
@@ -420,7 +426,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-white text-black text-sm font-semibold py-2 px-3 rounded-lg hover:bg-zinc-200 active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>Visitar sitio</span>
+                  <span>{t("skills.web-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -443,7 +449,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-zinc-800 text-zinc-300 text-sm font-medium py-2 px-3 rounded-lg border border-zinc-700 hover:bg-zinc-700 hover:text-white active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>GitHub</span>
+                  <span>{t("skills.github-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -477,9 +483,11 @@ const Portfolio = () => {
             {/* Mitad Derecha: Contenido y Botones */}
             <div className="flex flex-col justify-between flex-grow">
               <div>
-                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">Buscador de Gifs</h2>
+                <h2 className="text-xl font-bold tracking-wide text-zinc-100 mb-2">
+                  {t("skills.projects.project6.title")}
+                </h2>
                 <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-                  Un software desarrollado para buscar cualquier gif de la web de forma rapida y sencilla
+                  {t("skills.projects.project6.description")}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   <span className="text-xs font-semibold tracking-wide text-zinc-300 bg-blue-600/30 border border-blue-700 px-2.5 py-1 rounded-md shadow-sm">
@@ -499,7 +507,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-white text-black text-sm font-semibold py-2 px-3 rounded-lg hover:bg-zinc-200 active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>Visitar sitio</span>
+                  <span>{t("skills.web-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -522,7 +530,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 flex-1 bg-zinc-800 text-zinc-300 text-sm font-medium py-2 px-3 rounded-lg border border-zinc-700 hover:bg-zinc-700 hover:text-white active:scale-[0.98] transition-all duration-200"
                 >
-                  <span>GitHub</span>
+                  <span>{t("skills.github-btn")}</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"

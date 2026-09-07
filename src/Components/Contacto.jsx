@@ -1,10 +1,13 @@
+import { useTranslation } from "react-i18next";
+
 const Contacto = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div id="Contacto" className="w-full max-w-6xl mx-auto my-16 mt-64 px-5">
         {/* Título de la sección */}
         <h2 className="text-zinc-100 uppercase font-black tracking-wider text-4xl md:text-5xl border-b border-white pb-4">
-          Contactame
+          {t("contact.title")}
         </h2>
 
         {/* Lista de canales de contacto */}

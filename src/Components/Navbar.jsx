@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { i18n } = useTranslation();
+  const { t } = useTranslation();
   const [menu, setMenu] = useState(false);
   const [resolucion, setResolucion] = useState(
     typeof window !== "undefined" ? window.innerWidth : 1400,
@@ -34,13 +37,18 @@ const Navbar = () => {
   }, []);
 
   const enlaces = [
-    { id: "Main", label: "Santiago Padilla" },
-    { id: "SobreMi", label: "Sobre Mi" },
-    { id: "Porfolio", label: "Portfolio" },
-    { id: "Skills", label: "Skills" },
-    { id: "Educacion", label: "Educacion" },
-    { id: "Contacto", label: "Contacto" },
+    { id: "Main", label: t("navbar.home") },
+    { id: "SobreMi", label: t("navbar.about") },
+    { id: "Porfolio", label: t("navbar.portfolio") },
+    { id: "Skills", label: t("navbar.skills") },
+    { id: "Educacion", label: t("navbar.education") },
+    { id: "Contacto", label: t("navbar.contact") },
   ];
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === "es" ? "en" : "es";
+    i18n.changeLanguage(newLang);
+  };
 
   return (
     <>
@@ -100,6 +108,14 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+
+          {/* Botón global para cambiar el idioma */}
+          <button
+            onClick={toggleLanguage}
+            className="px-4 py-2 bg-zinc-800 text-white rounded-xl text-sm font-semibold hover:bg-zinc-700 transition-all border border-zinc-700"
+          >
+            {i18n.language === "es" ? "🇺🇸 EN" : "🇦🇷 ES"}
+          </button>
         </nav>
       )}
 

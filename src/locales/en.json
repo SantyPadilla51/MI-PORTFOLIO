@@ -1,0 +1,67 @@
+{
+  "main": {
+    "title": "Welcome to my Portfolio as a web developer",
+    "email": "padillasantiago51@gmail.com",
+    "description": "If you wish to contact me, you can do so via",
+    "btn": "View Projects"
+  },
+  "sobre-mi": {
+    "title": "About Me",
+    "descripcion": "Hello! I'm Santiago, a Software Developer focused on building robust applications and scalable web solutions. I specialize in transforming ideas into functional products through collaborative work and clear technical communication. My approach is oriented toward code excellence and the shared success of the projects I take part in.",
+    "btn": "Download CV"
+  },
+  "skills": {
+    "title": "Technological Skills",
+    "web-btn": "Visit Website",
+    "github-btn": "View on GitHub",
+    "projects": {
+      "project1": {
+        "title": "Argenta Real Estate Manager",
+        "description": "Fullstack real estate management platform featuring multi-level caching (Redis and TanStack Query), real-time dynamic filtering, Stripe payment integration, and Supabase automations."
+      },
+      "project2": {
+        "title": "Argenta Real Estate",
+        "description": "Real estate management system with component-driven architecture, implementing full CRUD operations, real-time dynamic filtering, and SQL database persistence."
+      },
+      "project3": {
+        "title": "DOC PANEL",
+        "description": "A software application for managing patient clinical studies, scheduling appointments, generating reports, and storing study images. Features a PostgreSQL database, cloud storage buckets for images, and a DEMO version."
+      },
+      "project4": {
+        "title": "Technical Assessment | EGO",
+        "description": "Frontend technical assessment for a company that required developing a landing page, respecting the provided design as closely as possible."
+      },
+      "project5": {
+        "title": "Hardware Store",
+        "description": "A simple, design-focused website for an online hardware store. It features a fully functional shopping cart section and a promotional carousel."
+      },
+      "project6": {
+        "title": "GIF Search Engine",
+        "description": "Software developed to search for any GIF on the web quickly and easily."
+      }
+    }
+  },
+  "stack": {
+    "title": "Technological Stack",
+    "description": "Programming Languages | Frameworks | Libraries"
+  },
+  "educacion": {
+    "title": "Education",
+    "education-1": "Technician in Software Development - IFTS 18",
+    "education-1-status": "In Progress",
+    "education-2": "Typescript- Udemy",
+    "education-3": "Modern Javascript - Udemy",
+    "education-4": "Web Development - CoderHouse"
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "navbar": {
+    "home": "Santiago Padilla",
+    "about": "About Me",
+    "skills": "Skills",
+    "portfolio": "Projects",
+    "education": "Education",
+    "contact": "Contact"
+  }
+}

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Tanstack, Redis, Typescript } from "@thesvg/react";
 
 const Skills = () => {
   const { t } = useTranslation();
@@ -26,11 +27,7 @@ const Skills = () => {
 
           {/* TypeScript */}
           <li className="flex items-center gap-2.5 bg-zinc-800/40 border border-zinc-800/80 px-3 py-2 rounded-xl hover:bg-zinc-800 hover:border-zinc-700 transition-colors duration-200 group">
-            <img
-              className="w-5 h-5 object-contain group-hover:scale-110 transition-transform brightness-125 hue-rotate-[15deg] saturate-200"
-              src="/icons/typescript-brands-solid.png"
-              alt="TypeScript"
-            />
+            <Typescript className="h-6 w-6" />
             <span className="text-sm font-medium">TypeScript</span>
           </li>
 
@@ -121,6 +118,19 @@ const Skills = () => {
               ></path>
             </svg>
             <span className="text-sm font-medium">Firebase</span>
+          </li>
+
+          {/* Redis */}
+          <li className="flex items-center gap-2.5 bg-zinc-800/40 border border-zinc-800/80 px-3.5 py-2 rounded-xl hover:bg-zinc-800 hover:border-zinc-700 transition-colors duration-200 group">
+            <Redis className="h-6 w-6" />
+
+            <span className="text-sm font-medium">Redis</span>
+          </li>
+
+          {/* Tanstack */}
+          <li className="flex items-center gap-2.5 bg-zinc-800/40 border border-zinc-800/80 px-3.5 py-2 rounded-xl hover:bg-zinc-800 hover:border-zinc-700 transition-colors duration-200 group">
+            <Tanstack className="h-6 w-6" />
+            <span className="text-sm font-medium">Tanstack</span>
           </li>
 
           {/* Tailwind */}

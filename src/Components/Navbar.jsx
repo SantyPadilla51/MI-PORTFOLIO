@@ -85,6 +85,13 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
+              {/* Botón global para cambiar el idioma */}
+              <button
+                onClick={toggleLanguage}
+                className="mt-8 px-4 py-2 bg-zinc-800 text-white rounded-xl text-sm font-semibold hover:bg-zinc-700 transition-all border border-zinc-700"
+              >
+                {i18n.language === "es" ? "🇺🇸 EN" : "🇦🇷 ES"}
+              </button>
             </div>
           )}
         </>

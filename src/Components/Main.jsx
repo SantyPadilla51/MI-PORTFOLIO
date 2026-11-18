@@ -9,7 +9,7 @@ const Main = () => {
         <div className="">
           <span
             id="text"
-            className="text-4xl md:text-6xl font-black tracking-tight text-white block min-h-[60px]"
+            className="text-4xl md:text-6xl font-black tracking-tight text-white block min-h-15"
           ></span>
         </div>
 
@@ -37,7 +37,7 @@ const Main = () => {
         {/* Botón de Llamado a la Acción (CTA) */}
         <div className="mt-10  flex flex-wrap items-center gap-6">
           <a href="#Porfolio" className="inline-block">
-            <button className="text-zinc-950 bg-zinc-100 font-bold tracking-wide text-sm px-8 py-4 rounded-xl hover:bg-zinc-300 active:scale-95 transition-all duration-200 uppercase shadow-lg shadow-black/20">
+            <button className="text-zinc-950 cursor-pointer bg-zinc-100 font-bold tracking-wide text-sm px-8 py-4 rounded-xl hover:bg-zinc-300 active:scale-95 transition-all duration-200 uppercase shadow-lg shadow-black/20">
               {t("main.btn")}
             </button>
           </a>

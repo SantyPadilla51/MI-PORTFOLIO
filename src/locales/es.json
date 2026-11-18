@@ -7,6 +7,7 @@
   },
   "sobre-mi": {
     "title": "Sobre Mí",
+    "cv": "/img/CV - Desarrollador Full Stack.pdf",
     "descripcion": "¡Hola! Soy Santiago, Desarrollador de Software enfocado en la creación de aplicaciones robustas y soluciones web escalables. Me especializo en transformar ideas en productos funcionales mediante el trabajo colaborativo y una comunicación técnica clara. Mi enfoque está orientado a la excelencia en el código y al éxito compartido de los proyectos en los que participo.",
     "btn": "Descargar CV"
   },
@@ -32,12 +33,8 @@
         "description": "Prueba Tecnica de Frontend para empresa donde habia que desarrollar una landing, respetenado lo maximo posible el diseño que me habian otorgado"
       },
       "project5": {
-        "title": "Tienda Hardware",
-        "description": "Una pagina web sencilla, enfocada en el diseño para una tienda de hadware online. Cuenta con un apartado de carrito totalmente funcional y carrusel de ofertas."
-      },
-      "project6": {
-        "title": "Buscador de Gifs",
-        "description": "Un software desarrollado para buscar cualquier gif de la web de forma rapida y sencilla"
+        "title": "Palita Computo",
+        "description": "Palita Cómputo es una plataforma web para arquitectos que automatiza el cómputo y presupuesto de obras. Permite registrar obras y sus clientes, armar cómputos por rubro (mampostería, estructura de hormigón, instalaciones, etc.) y calcular los costos a partir de catálogos de materiales, mano de obra y equipos. También permite hacer seguimiento del estado de cada cómputo (borrador, enviado, aprobado) y exportar un presupuesto en PDF para el cliente."
       }
     }
   },
@@ -47,8 +44,7 @@
   },
   "educacion": {
     "title": "Educación",
-    "education-1": "Tecnicatura Superior en Desarrollo de Software - IFTS 18",
-    "education-1-status": "En Curso",
+    "education-1": "Tecnico Superior en Desarrollo de Software - IFTS 18 (2023 - 2026)",
     "education-2": "Typescript- Udemy",
     "education-3": "Javascript Moderno - Udemy",
     "education-4": "Desarrollo Web - CoderHouse"

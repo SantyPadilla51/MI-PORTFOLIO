@@ -3,7 +3,7 @@ import { consoleText } from "./index.js";
 import Navbar from "./Components/Navbar";
 import SobreMi from "./Components/SobreMi.jsx";
 import Main from "./Components/Main.jsx";
-import Portfolio from "./Components/Portfolio.jsx";
+import Portfolio from "./Components/Portfolio.tsx";
 import { Educacion } from "./Components/Educacion.jsx";
 import Skills from "./Components/Skills.jsx";
 import Contacto from "./Components/Contacto.jsx";

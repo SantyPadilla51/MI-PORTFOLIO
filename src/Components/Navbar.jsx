@@ -71,7 +71,7 @@ const Navbar = () => {
 
           {/* Menú Desplegable Móvil */}
           {menu && (
-            <div className="fixed inset-x-0 top-[61px] z-40 bg-zinc-950/95 backdrop-blur-lg border-b border-zinc-900 px-6 py-8 animate-fadeIn">
+            <div className="fixed inset-x-0 top-12.25 z-40 bg-zinc-950/95 backdrop-blur-lg border-b border-zinc-900 px-6 py-8 animate-fadeIn">
               <ul className="flex flex-col gap-5">
                 {enlaces.map((link) => (
                   <li key={link.id}>
@@ -110,7 +110,7 @@ const Navbar = () => {
                   onClick={(e) => handleEnlace(e, link.id)}
                 >
                   {link.label}
-                  <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-sky-400 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-400 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               </li>
             ))}
@@ -119,7 +119,7 @@ const Navbar = () => {
           {/* Botón global para cambiar el idioma */}
           <button
             onClick={toggleLanguage}
-            className="px-4 py-2 bg-zinc-800 text-white rounded-xl text-sm font-semibold hover:bg-zinc-700 transition-all border border-zinc-700"
+            className="px-4 py-2 cursor-pointer bg-zinc-800 text-white rounded-xl text-sm font-semibold hover:bg-zinc-700 transition-all border border-zinc-700"
           >
             {i18n.language === "es" ? "🇺🇸 EN" : "🇦🇷 ES"}
           </button>

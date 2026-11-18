@@ -12,13 +12,17 @@ export const Educacion = () => {
 
         <ul className="lg:grid lg:grid-cols-3 text-white mt-14 gap-8">
           <li className="mb-16">
-            <h2> {t("educacion.education-1")} </h2>
-            <button className="text-black bg-white mt-2 p-3 hover:bg-slate-400">
-              {t("educacion.education-1-status")}
-            </button>
+            <h2 className="text-center"> {t("educacion.education-1")} </h2>
+            <img
+              src="/img/ifts18.png"
+              alt=""
+              width="250"
+              height="250"
+              className="mt-4 mx-auto"
+            />
           </li>
           <li className="mb-16">
-            <h2> {t("educacion.education-2")} </h2>
+            <h2 className="text-center"> {t("educacion.education-2")} </h2>
             <img
               src="/img/certificado-typescript.jpg"
               alt=""
@@ -28,7 +32,7 @@ export const Educacion = () => {
             />
           </li>
           <li className="mb-16">
-            <h2> {t("educacion.education-3")} </h2>
+            <h2 className="text-center"> {t("educacion.education-3")} </h2>
             <img
               src="/img/certificado-udemy-js.jpg"
               alt=""
@@ -38,7 +42,7 @@ export const Educacion = () => {
             />
           </li>
           <li className="mb-10">
-            <h2> {t("educacion.education-4")} </h2>
+            <h2 className="text-center"> {t("educacion.education-4")} </h2>
             <img
               src="/img/Certificado-Coder-House.png"
               alt=""

@@ -7,6 +7,7 @@
   },
   "sobre-mi": {
     "title": "About Me",
+    "cv": "/img/CV - Software Developer.pdf",
     "descripcion": "Hello! I'm Santiago, a Software Developer focused on building robust applications and scalable web solutions. I specialize in transforming ideas into functional products through collaborative work and clear technical communication. My approach is oriented toward code excellence and the shared success of the projects I take part in.",
     "btn": "Download CV"
   },
@@ -32,12 +33,8 @@
         "description": "Frontend technical assessment for a company that required developing a landing page, respecting the provided design as closely as possible."
       },
       "project5": {
-        "title": "Hardware Store",
-        "description": "A simple, design-focused website for an online hardware store. It features a fully functional shopping cart section and a promotional carousel."
-      },
-      "project6": {
-        "title": "GIF Search Engine",
-        "description": "Software developed to search for any GIF on the web quickly and easily."
+        "title": "Palita Computo",
+        "description": "Palita Cómputo is a web platform for architects that automates construction quantity takeoff and cost estimation. It lets users register projects and their clients, build estimates by trade (masonry, reinforced concrete structures, installations, etc.), and calculate costs from catalogs of materials, labor, and equipment. It also tracks the status of each estimate (draft, sent, approved) and exports a PDF quote for the client."
       }
     }
   },
@@ -47,8 +44,7 @@
   },
   "educacion": {
     "title": "Education",
-    "education-1": "Technician in Software Development - IFTS 18",
-    "education-1-status": "In Progress",
+    "education-1": "Higher Technician in Software Development - IFTS 18 (2023 - 2026)",
     "education-2": "Typescript- Udemy",
     "education-3": "Modern Javascript - Udemy",
     "education-4": "Web Development - CoderHouse"
